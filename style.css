@@ -619,3 +619,17 @@ a:hover {
         padding: 3rem 0;
     }
 }
+
+/* Software Section */
+.software-content {
+    background: var(--bg-white);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+.software-content p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}

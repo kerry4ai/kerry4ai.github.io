@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, observerOptions);
 
     // Observe all sections and cards
-    const animatedElements = document.querySelectorAll('.section, .research-card, .publication-item, .contact-item');
+    const animatedElements = document.querySelectorAll('.section, .research-card, .publication-item, .contact-item, .software-content');
     
     animatedElements.forEach(el => {
         el.style.opacity = '0';
